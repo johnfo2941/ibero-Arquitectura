@@ -1,0 +1,87 @@
+           body {
+               margin: 0;
+               padding: 0;
+               font-family: Helvetica, Arial, sans-serif;
+               color: #0ceeee;
+               background: url("../imagenes/vehiculo.jpg");
+               font-size: 1em;
+               line-height: 1.5em;
+               width: 100%;
+               text-align: center;
+           }
+           
+           .main-header {
+               height: 65px;
+               width: 100%;
+               background: #020103;
+               padding: 15px;
+               border: 5px #ffef0a;
+               font: #ffffff;
+               display: inline-block;
+           }
+           
+           .logo-header {
+               float: left;
+               padding: 15px 0 0 20px;
+               text-decoration: none;
+               color: #ffffff;
+           }
+           
+           .logo-header:hover {
+               color: #0ba64c;
+           }
+           
+           .indice {
+               display: block;
+               font-weight: 700;
+               font-size: 30px;
+               padding: 15px 0 0 20px;
+           }
+           
+           nav {
+               float: right;
+           }
+           
+           nav ul {
+               margin: 0;
+               padding: 0;
+               list-style: none;
+               padding-right: 20px;
+           }
+           
+           nav ul li {
+               display: inline-block;
+               line-height: 80px;
+           }
+           
+           nav ul li a {
+               display: block;
+               padding: 0 10px;
+               text-decoration: none;
+               font-size: 30px;
+               font: #ffffff;
+           }
+           
+           nav ul li a:hover {
+               background: #348fbd;
+           }
+           
+           h1 {
+               font-size: 80px;
+               text-align: center;
+               color: #1b72c9;
+               padding: 20px;
+           }
+           
+           h2 {
+               font-size: 60px;
+               text-align: center;
+               color: #d40012;
+               padding: 20px;
+           }
+           
+           p {
+               font-size: 40px;
+               color: #000000;
+               text-align: left;
+           }
